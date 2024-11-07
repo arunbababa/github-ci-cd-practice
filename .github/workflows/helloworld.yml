@@ -1,7 +1,8 @@
 name: Hello World
 
-on: 
-  workflow_dispatch:
+
+# 動くきっかけ
+on: [push]
 
 jobs:
   say_hello:
